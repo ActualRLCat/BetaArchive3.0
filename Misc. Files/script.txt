@@ -1,0 +1,1210 @@
+and
+
+How Physics is Your Friend
+
+ 
+
+Drew Davidson
+
+ 
+
+Well Played 1.0: Games, Value and Meaning.
+Ed. Drew Davidson. Pittsburgh, PA: Play Story Press, 2024.
+
+ 
+
+In the spring of 2005, an experimental game was prototyped in seven days. This little experiment was Tower of Goo, and it was the seed that led to the development of the independent video game, World of Goo, which was released in the fall of 2008. With this essay, I will engage in a close in-depth reading of World of Goo in order to parse out various meanings I’ve found in my experience with the game. Normally, I approach a game playing experience from the perspective of how its game design and narrative development can combine to help a player learn how to play the game, and I relate this experience in a fairly linear fashion while interjecting analytical insights as I go. With this analysis, I’m going to try to relate my entire experience with World of Goo; from participating in the beta testing during its development and exchanging emails with its designer Kyle Gabler, to reading about it in the press and online, and to the actual experience of playing the game itself.
+
+Overview
+
+So I’m going to explore the development of the game, from initial prototype to the final release on multiple platforms, to illustrate the process of how an experimental game prototype evolved into a full indie game experience. And I’m going to look at the pop cultural buzz around World of Goo and the industry interest it has been generating.  Finally, I’m going to discuss the gameplaying experience. Sequences from the game will be analyzed in detail in order to illustrate and interpret how the various components of the game come together to create a fulfilling playing experience that leads to a literacy and mastery of the gameplay mechanics. I’m curious to develop and define a literacy of games as well as a sense of their value as an experience, and braiding these three threads together provides a thorough analysis of the game. I believe videogames are a complex medium that merits such careful interpretation and insightful analysis.
+
+In the interest of full disclosure I should note that I know Kyle Gabler. He was a student at the Entertainment Technology Center (ETC) at Carnegie Mellon University (CMU) when I was an adjunct faculty member. I didn’t work directly with him during his studies; although since his graduation I’ve stepped up to help direct the ETC in Pittsburgh, and I’ve kept up with the work Kyle has been doing as he continued the Experimental Gameplay Project, and then founded 2D Boy with Ron Carmel and began developing World of Goo. Usually when I analyze a game, I play it multiple times, and do some reading and research around it, and then develop an analysis based on the experience I’ve had playing the game. When I considered analyzing World of Goo, it was still in development and I thought it was an interesting opportunity to take a look at both the development process as well as the final gameplay experience. I asked Kyle about this idea, and he was interested. So, I participated in the beta testing of the game, and he and I discussed over email various points about the game in terms of its story and gameplay. This testing experience went well enough that I had the honor of being listed in the “Special Thanks” section of the game’s credits. Throughout, I’ve followed all the media and industry attention World of Goo has been receiving.  There have been numerous articles and innumerable blog posts, as well as many presentations, demos and awards at various professional conferences. I’ve kept up with online forums (and the beta testing site) as well as GameFAQs in order to ensure that I didn’t miss any parts of the game. Also, I dug around in the program files to get a sense of how 2D Boy organized them, while also finding media files (sounds, music, images and animations) for reference and use in a conference presentation and this essay.
+
+In terms of gameplay experience, I’ve played Tower of Goo (and it’s sequel Tower of Goo: Unlimited) countless times (literally) on my Macbook laptop through Boot Camp in Windows XP. On the same platform, I’ve also played through the preview version of World of Goo Chapter 1 about six times (it was released in the Summer of 08). During the beta testing, I played through the entire game at least 2 times on XP (recording my first playthrough in its entirety) and played through the gold candidate completely as well as then revisiting many of the various levels multiple times on both my laptop and PC desktop. I also gave a presentation on the analysis of this game at the Meaningful Play Conference in October 2008. And I’ve played through the final release version multiple times on XP (on it’s own and through Steam), Mac OS X (both native and through CrossOver Games), Linux (through Parallels) and the Nintendo Wii (through Wiiware) where I also enjoyed the cooperative multiplayer gameplay. The first Tower of Goo was always short and sweet (around 10-15 minutes per game). Tower of Goo: Unlimited could last longer, although the longest I played it was probably 45-60 minutes. The Chapter 1 preview probably took me around 60-90 minutes. The final game took me around 5-6 hours total. Playing time for the beta testing was roughly twice as long as the final game (mostly due to recording and taking notes). The game was similar enough across the Mac OS X, Windows XP, and Linux that it doesn’t merit more detailed discussion in this regard, but the Wii version has a cooperative multiplayer mode I’ll explore later.
+
+Experimental Gameplay
+
+Now before we dive into the World of Goo, let’s take a look at the history of development of the game, and how it came to be. Back in the fall of 2004, a small group of graduate students at the ETC pitched a project that would focus on the rapid prototyping of gameplay mechanics. This pitch evolved into the Experimental Gameplay Project (EGP), which took place during the spring semester of 2005.  The project focused on game prototyping under the constraint of 3 rules;
+
+1. Each game must be made in less than seven days,
+2. Each game must be made by exactly one person,
+3. Each game must be based around a common theme.
+
+During the course of the semester, the 4 graduate students (Kyle Gabler, Kyle Gray, Matt Kucic and Shalin Shodhan) were able to prototype around 50 games. The EGP developed into a second semester, with 4 new graduate students carrying on the rapid prototyping, and the original EGP developed into an on-going website and open challenge to a growing community of independent game designers interested in trying to design game prototypes within these 3 constraints. The founding members have hosted EGP competitions across the years to encourage more people to join the experiment. Another interesting enticement they created is EGP Apparel where art from the games was printed onto t-shirts, and the shirts were sold at Target and came with the related videogame on a disc. While this experiment in fashion didn’t pan out fully and is currently on hold, EGP is alive and kicking with people designing, submitting, playing and rating game prototypes as we speak.
+
+That said, one of the original fifty games was a simple little physics game called, Tower of Goo, which was prototyped by Kyle Gabler in a week. Tower of Goo was one of the more popular of the games on the EGP site, which led to Gabler developing an iteration, Tower of Goo: Unlimited, that took the original game and made a version that was a potentially endless experience. The on-going success of the EGP and the popularity of the Tower of Goo games helped inspire Gabler to partner with Ron Carmel, and they both quit their jobs at Electronic Arts and founded 2D Boy in 2007.
+
+2D Boy
+
+They immediately started working on their first game, World of Goo, which built on the success of the Tower of Goo games. 2D Boy is an independent game studio based in San Francisco, and as described on their website, their focus is on, “making games the old fashioned way - a team of two, no money, and a whole lot of ‘love’.” Gabler has contributed to the art, design, music and story of the game development, while Carmel provided programming and production. Toward the end of development, they hired two others to help with testing and final implementation. They used many open source technologies during the development process, such as Open Dynamics Engine, Simple DirectMedia Layer, PopCap Games Framework, TinyXML, Advances Encryption Standard, irrKlang and libcurl (World of Goo readme.html). They also kept a development blog and an active community forum on their website. This enabled them to work with their community during the development process. Their fans were happy to help out with beta testing and often made suggestions in regards to gameplay and level design. This transparency has helped to create a passionate community that feels connected to the game. Scott Juster (2008) noticed how this connectivity around the game resonated with the connective gameplay mechanics within the game.
+
+  Development
+
+I got involved with the final rounds of beta testing as the whole game was coming together. 2D Boy was having a small group of people video tape themselves playing through the game and they encouraged us to comment aloud as we were playing. As they were continually developing, Kyle sent me successive builds of the complete game up to their gold candidate that they submitted for approval for PC and Wiiware distribution. Using CamStudio, I recorded a complete playthrough of the game along with all the verbal comments I made as I was playing, and these videos inspired many email discussions with Kyle about the design of the game. After this first recorded playthrough, I went back and played through the gold candidate again, this time taking written notes as I went, which I shared with 2D Boy as well. At this stage, the game was mostly complete and 2D Boy was primarily tweaking the gameplay balance and finding any obscure bugs. One thing I noticed is that during beta testing, the difficulty curve seemed a little off; sometimes it would get too hard too fast (to the point that I would have to skip a level) followed by times that then felt too easy. I actually never finished “You Have to Explode the Head” in Chapter 3 until the gold candidate. 2D Boy successfully addressed this issue by adding signs for clues, altering level goals, and tweaking level design. By the final release, I found the difficulty curve to be well balanced; the challenges and rewards ramped up smoothly, keeping the flow of the experience engaging and compelling. In the end, it was interesting (and rewarding) to see how my comments seemed to be helpful and at times to impact changes and possibly even aided with improvements in the design and development of the game.
+
+Cultural Buzz
+
+Next, let’s consider the media and industry buzz and excitement that World of Goo has been generating. I’ve already described how the conception of World of Goo was the Experimental Gameplay Project. During that semester, the student team received a lot of industry, media and internet attention. The students jokingly said that they were “media whores,” but they were quite savvy about making the most of the attention.  Initially, it was apparent that the interest was less about the specific games, and more about the rapid prototyping process through which the students designed and developed the games. This led to a white paper and a presentation at the 2006 Game Developers Conference on “How to Prototype a Game in Under 7 Days.” Also, EGP was covered by various news outlets and industry weblogs, which helped establish an awareness of all things related to EGP. So when Kyle Gabler and Ron Carmel founded 2D Boy, they were able to capitalize on this earlier interest and actively begin generating excitement for the company’s first game, World of Goo.
+
+Since 2D Boy began developing the game, they’ve had continual coverage in various industry news outlets and prominent weblogs. Similarly to EGP, 2D Boy has received attention for the game they’re making as well as their process for making the game. This has occurred in conjunction with the development of a vocal and supportive community interested in the game. The development weblog on their company site helps to keep information flowing out about the game, and they have very active discussion forums in which they participate and solicit ideas and suggestions from their community, which in turn grows the community as they feel more engaged and invested in both the game and the process.  The first fansite was created well before the release of the game even.
+
+They’ve also had a lot of support from the independent game development community. They’ve presented and demoed at conferences around the world, and written articles and participated in interviews discussing their game and how they’re making it. They enabled fans to pre-order the game, which helped provide funds for development, and in return players would receive a demo of the first chapter to play as well as a profanity sound pack that would have the goos swearing during gameplay. They were also nominated and won many awards, as well as made and topped many best of the year lists. They won the Design Innovation and Technical Excellence awards at the 2008 Independent Game Festival, and they won the Best Independent Game Award at the Spike 2008 Video Game Awards and Outstanding Achievement in Game Design at the 2009 DICE Awards, and they’ve been nominated 2009 Game Developers Choice Awards. Game Developer Magazine listed Ron Carmel and Kyle Gabler as “Progressives” who have implemented new ideas in game development, in the 2008 Top Deck of the industry’s most influential players, and Spike declared 2D Boy as one of the next great game gods. Edge Magazine listed 2D Boy as a 2008 Game Industry Hero as well as a 2009 Hot Game Developer, and World of Goo as one of 2008’s Top Games. World of Goo was on Metacritic’s Best of the 2008 lists for both Wii and PC, and it was the most popular Wii game on Game Rankings, and on Moby Games it was third overall for 2008 and second for the Wii. It topped nine of IGN’s best of 2008 categories, including Wii Game of the Year, and GameSpy named it Wiiware Game of the Year. Gamasutra named World of Goo the 2nd best game of the year, while IGN, Jay is Games, VG Chartz, GameSpy and Game Tunnel named it the top puzzle game of the year. Wired named it one of the Top 5 multi-platform games of the year and Eurogamer listed it in their Top 10 for 2008. Rock, Paper, Shotgun named it Game of the Year, while Jay is Games lists it as one of the best casual games ever, and these are just the highlights, for more see the reference section at the end of the book.
+
+With the release of the game in fall 2008, they garnered laudatory reviews (as of this writing, World of Goo has a 95 Metacritic score for Wii, 3rd overall, and a 91 for PC, 62nd overall, as well as a 93.9% for the Wii and a 90.8% for the PC on Game Rankings) which just added to the attention around the game. They released it for the Nintendo Wii through the WiiWare shopping channel (and World of Goo was the top title on WiiWare (above even Mega Man 9) following it’s release) and Nintendo promoted it on the Nintendo Channel. They released it for PC download through their own site, and through Direct 2 Drive, Impulse, Greenhouse and Beanstalk Games. They also released it through Steam, which enabled players to track their game achievements through the Steam system. And Brighter Minds, the parent company of Beanstalk Games, is distributing the game through traditional retail (and around the 2008 holidays, it was one of the top-selling PC games on Amazon and made the top ten best selling PC game list for the week of January 17th, 2009). One thing that should be noted is that 2D Boy decided to release the game with no DRM (digital rights management) that could possibly restrict players’ enjoyment of the game. This decision shows a trust in their fans to enjoy the game and not pirate it. Upon the release of the game, they also released the Chapter 1 demo for free and encouraged people to share it around, so that anyone could try the game before they buy it. Even so, about a month after the release of the game, 2D Boy estimated that there was a 90% piracy rate of the game. That said, it was important to 2D Boy (both philosophically and financially) to make it easy for players to access and experience their game. Two great examples of this are that they also released the soundtrack of the game as well as revisiting the making of the game and releasing various old playable development versions, all free for download. All in all, they’ve done a great job of winning interest and excitement in World of Goo.
+
+Game Analysis
+
+As I mentioned earlier, I normally analyze a game by playing it, and while I believe this is the best way to analyze a game, I’ve found it interesting to consider this game’s pop cultural context and development process. So after discussing all of the above, let’s begin analyzing and interpreting the gameplay and narrative of World of Goo, and how they combine to create a meaningful gameplaying experience. A quick aside: for those who have yet to play this game, the rest of this paper contains a lot of spoilers.  I will progress linearly through my experience of playing the game and uncovering the attendant story.
+
+Tower of Goo
+
+First, I should describe Tower of Goo. Briefly, the game starts with instructions to drag your goo-balls up higher and higher, and then a bunch of black goo balls drop from the sky, along with a small rectangular goo tower that lands and bounces at the bottom middle of the screen. To play, you click and hold to grab the loose goo balls and start adding to this initial tower building up in a triangular fashion of trusses until you run out of goo balls.  You’re encouraged to build up by the game’s name, and how you’re instructed to build higher. Also, there’s a sign pointing up that reads, “25 Meters.” As you play, the game tells you how many meters up you’ve gone, and players began posting how tall a tower they had built. There’s a funky music loop playing, and when you interact with the goos, they make little squishy sounds effects (and high pitched, “yippees!”). So, each loose goo ball can attach to two other goo balls that are already connected to the tower (hence the triangular truss-work building). You see faded black lines that roughly show you how your addition will add to the tower. I say roughly because the tower is gooey and there is a looseness to its stability as it sways and wobbles, adding to the construction challenge.
+
+ 
+
+
+© Kyle Gabler 2005. All rights reserved. Image reproduced with permission.
+
+ 
+
+Tower of Goo: Unlimited is the mostly same game except that now for every goo you add to the tower, another goo falls from the sky, so you never run out of goos, and since it’s unlimited you get some hot keys so that you can zoom the camera in and out. Also, the sign in Unlimited reads, “no limit,” and your tower height is monitored along with the number goo balls you have used. The goos have the same sounds effects, but now there’s a high-energy gypsy music loop. For the first iteration, it’s all about solid construction, using your limited resources to get as high as you can. For the second, it’s still about solid construction with the game tracking both your height and the number of goos you’ve used, but now you can literally go on for as long as you like.
+
+ 
+
+World of Goo
+
+Like both versions of Tower of Goo, World of Goo has the fundamental elegant physics gameplay with the addition of iterated dynamics derived from variations of goo balls and levels designed with a destination to which you’re building, and this has evolved into a casual puzzle game with an attendant story to go along with the playing experience. I chose this game specifically because it’s a great example of gameplay mechanics that are easy to learn, but hard to master, and it is also a compelling example of how a student project can be independently developed into a professional mainstream product.  As described by 2D Boy on their website, “World of Goo is a physics based puzzle / construction game. The millions of Goo Balls that live in the beautiful World of Goo don't know that they are in a game, or that they are extremely delicious.” The gameplay in World of Goo is spread over 6 sections made up of 4 chapters, an epilogue, and a metagame. For awhile, there was an additional chapter planned for a later European release, but in the interest of offering everyone around the world the same quality experience, 2D Boy decided not to do it. So as of this writing, the potential  extra chapter is on hold, and if it is released, it will be offered on every platform. That said, each chapter is an island on the world, and is full of individual levels. As you play your way through the levels, you advance along paths across the islands, and as you make your way from chapter to chapter you also travel through the seasons of the year. There are 48 levels across all the sections with around 25 different types of goo balls. There is a leaderboard and the game can save up to three profiles of player progress (tracking the number of goo balls and time units). The Wii version of the game also has a cooperative multiplayer mode for up to 4 players. It seamlessly allows other players to join (or leave) gameplay at any point during the game, so that they can play together. Playing in multiplayer is actually a lot of fun, you can get through the levels much more quickly and can support each other’s building. The camera is controlled by the Player 1 Wiimote, so the other players are dependent on the first player in that regard, but everyone can grab goos and add to the structure. Also with the Wii, the interactivity is through the Wiimote. You point at the screen and click A or B to grab a goo. On the computer, you just use the mouse, although I’ve also played it on a tablet PC, which was probably the most direct way to interact with goos (which makes you wonder about potential touchscreen versions on platforms like the Nintendo DS and the iPhone). In all cases, the input allowed for easy interactivity with the game.
+
+
+© 2D Boy, LCC 2008. All rights reserved. Image reproduced with permission.
+
+ 
+
+Gameplay & Narrative
+
+Now, let’s look more closely at the World of Goo gameplay experience. I’m going to walk through my experience exploring how the game design and narrative development unfold. To help track this process, I’ll refer to two diagrams. The first diagram used is a classic literary plot diagram (Davidson 2005).
+
+plot
+© Drew Davidson 2005. Image released into the Creative Commons (by-nc-nd).
+
+Using this diagram, I’ll follow the story of World of Goo as it develops across key moments in the game. Next, a diagram illustrating the stages of interactivity is used.
+
+diagram
+© Drew Davidson 2005. Image released into the Creative Commons (by-nc-nd).
+
+This interactive diagram was developed in a previous paper (Davidson 2005) and outlines the interactive experience of playing a game.  Briefly, the experience is posited to have 3 stages: involvement – being initially introduced into the game; immersion – becoming engaged with the gameplay and the gameworld; and investment – feeling compelled to successfully complete the game. The interactive diagram illustrates these three stages.  The x-axis shows the relationship of the time spent playing the game, from start to completion. The y-axis shows both the level of interactive engagement (in purple), down from shallow to deep, and the percentage of game experienced (in green), up from none to all.
+
+Comparing the results from both of the above diagrams helps to illustrate the relationship between a game’s story and its gameplay and how they can fit together to create a satisfying and engaging interactive experience. Of course, this approach wouldn’t necessarily be the most apt for analyzing all the different genres and types of games, but I think it works well for the World of Goo.
+
+One method I don’t directly explore is the procedural, computational nature of how this experience is created. Michael Mateas (2005) and Ian Bogost (2007) have written on the importance of procedural literacy, but for the purposes of this interpretation, I keep the focus more on a gaming literacy (GameLab Institute of Play 2007) and explore the gameplay and narrative. Also, James Paul Gee (2007) has written on thirty-six learning principles associated with games, which illustrate how a game teaches us to play. And in performing this interpretation, Bogost’s (2007) ideas on “unit operations” as an analytical methodology are not explicated in detail, but combined with Gee’s ideas of learning principles, inspire an exploration of how the gameplay and story can be seen as learning units of meaning that inter-relate in a variety of ways and lead us to a literacy and mastery through the playing experience (Davidson, Well Played, 2008).
+
+Basics
+
+With this in mind, let’s explore World of Goo. Even before you start the game, the fun begins as you’re invited to enjoy the installation process which ends with the option to “Make me dirty right now.” And it continues as you start the game and immediately get exposed to more of the humorous sensibility of this game with the text that scrolls while the game is loading. For example; “bending the spoon… challenging everything… embiggening prototype…meticulously diagramming fun…” and many more. 
+
+A musical intro starts up with a high-energy gypsy tune. Then a gooey black wave washes across the screen revealing the World of Goo. The planet is floating in purple space and you can roll over each island, or chapter. At this point, you see an arrow bouncing over Chapter 1, and it’s the only island that lights up in color when you roll over it with the cursor, the other islands go clockwise around the world, but are currently all blacked out. And the cursor is gooey as well, as you move it around it forms a gooey tail that catches up to the round gooball of a cursor when you stop moving it. Clicking on the Chapter 1 island takes you out of the world menu and into the island menu with another gooey black wave which serves as the filmic transition between scenes and areas throughout the game. All the menu screens are in widescreen format with a black border across the top and the bottom of the screen.
+
+:media:islands:ch1.jpg
+© 2D Boy, LCC 2008. All rights reserved. Image reproduced with permission.
+
+Art Direction
+
+Chapter 1 is titled, “The Goo Filled Hills,” and is also denoted as “summer.” The island menu is gorgeous with an art style that recalls a mashup of Tim Burton and Dr. Seuss with a colorful palette mixed with some slightly darker imagery.  Eerie fairy music plays, reminding you of the music from Danny Elfman movie scores. It looks like a green little island of nature, but there are some rotating gears and the heart of the island is a raging inferno, and then there’s a huge pipe that is leaking a black (gooey?) liquid along with a set of smoke stacks. So it seems nature is being plundered, and all this just from the theming of the island menu. A red arrow bounces over a node, inviting you try the first level. Like the islands, all the levels are titled (and also subtitled). Clicking on the node causes another filmic transition, but this feels like vegetation growing over the screen and then parting to reveal the level. The camera pans over the level providing a brief visual fly-through of the level that gives you a general sense of what you have to do. It then pulls back and the black borders recede into full screen for gameplay. The first level is titled, “Going Up” and is subtitled, “easy as Goo pie.” It directly recalls Tower of Goo with a simple rectangular goo structure and goos falling to the ground and then moving onto and about the structure. There’s a pipe at the top of the screen and a large sign that instructs you to drag and drop to build to the pipe with a little graphic showing you how to add a goo to the structure.  The goos are cute little grey blobs with eyes and they ooze around the level and up onto the structure. In talking with Kyle Gabler, he related that the goos weigh more when they’re part of the structure than when they’re crawling on the structure, which adds to the wobbling as you build.
+
+User Interface
+
+There are minimal menus along the bottom of the screen; a retry button to the left, and to the right a general menu button and the text, “0 of 4 collected.” The retry button lets you start over, or you can choose to skip the level if you want (although it shows that you only have a limited number of skips available).  The menu button lets you retry, pause or end the level. It also lets you see the level’s OCD, or “Obsessive Completion Distinction” criteria. OCD can be a larger number of goo balls to collect, or a small amount of moves used, or a short amount of time.
+
+ 
+
+Rolling the cursor over the moving goos causes the goo to stop with an audible pop, and the selected goo gets highlighted with a targeting graphic. You can then click and drag this goo around the screen, which causes a little trill of sound from the goo.  If you are close to the structure, you see faint white lines that give you a sense of how your goo will connect to the structure. I say it only gives you a sense, because the placed goo and overall structure is definitely gooey, and it expands and squishes and wobbles and jiggles and sways.  The placed goo lets out a variety of joyful and endearing sounds, squeals and shouts. It’s hard not to love the goos. If you drop a goo away from the structure, it makes a little grumble. It seems the goos like building structures as they swarm on and around what you’re building. So, you build up to the pipe and once you get close, it starts sucking at the structure you’ve built. Text also pops up saying that you “Made It!”, and the remaining loose goos move up and get counted as they’re sucked into the pipe with more joyful noises. It’s rather reminiscent of the classic game, Lemmings. Both games have a goal of puzzling through environments to lead characters (lemmings and goos) to an end point.
+
+Off to the right, a small “World of Goo Corp.” tank appears, and you see all the extra goos collected in the tank. You’ll also see an “OCD!” if you met the level’s criteria. You also can tell that the numbers at the bottom of the screen increase as well, ending (in this case) with, “11 out of 4 collected” and once you collected 4 out of 4 (or the minimum for the level) a plunger drops from the top of the screen with a handle that reads, “continue,” and the crowd cheers. Clicking “continue” causes the plunger to drop away and the screen reverts to widescreen as a larger “World of Goo Corp” tank clanks into the center of the screen and fills up with black liquid and the extra goos that just got sucked up into the pipe. You can see the level behind the screen, so you get to view the structure you just built. And then a lever pops out below the tank with “continue” written on the handle. You also see the goal (number of goos, which was 4 for this level) along with the gooballs collected (in this case 11) and the extra gooballs (+7). You’re also shown the number of moves (3) and the time (0:38). Along with OCD (if you achieve it) there’s a checkbox to submit your score to the World of Goo Leaderboard of Excellence. Clicking “continue” causes the goos to drain out of the tank and then the tank gets whisked up out of the screen and it fades to black and back to the island where a goo trail forms and connects to the next node for the next level. And if you just achieved OCD, the previous node now has a flag flying above it, scrolling over the past level now gives you the name along with the number of goos you collected.
+
+It’s a bit of an ominous transition with ambivalent tension as you’re not sure what just happened to the cute goos, and it feels like it may not be such a good thing to have the goos sucked away into the pipes. This is just the start of a sense of the story that builds across the game in small units of information. In terms of gameplay, the mechanic is true to the fundamental mechanic originated in Tower of Goo, but there is a subtle difference. In both games there is an inherent fairness to this physics-based mechanic with serves as a basic unit of the experience as you have to build sound structures, but in World of Goo, you are also building toward the pipe, so another unit is added as you have a goal beyond just height, it’s now a destination. Also, the game is consistent with the use of fullscreen for gameplaying, and widescreen for cutscenes, menus, and transitions.  It’s a gentle introduction into the interactivity, and I’m already getting involved in the game.
+
+Variations
+
+With that in mind, we will take a closer look at how the game starts with this fundamental unit of physics gameplay mechanic and then creates a wonderful diversity of iterations and variations across the playing experience. Gameplay variations are created through different goos, clever level designs and the overall theming of the islands.
+
+The gameplay variations help to continue the flow of the playing experience as players learn and master the various units of gameplay throughout the game. You see this immediately in design of the second level, “Small Divide.” This is the first time the gameplay mechanic is used horizontally, as you must construct a bridge across a small chasm.
+
+Three other concepts are also introduced in this level. First, there are sleeping goos (denoted with little “z”s) that you can’t use until you build the goo structure close enough to them to wake them up, which they do with a quick trill and then they can be used to add to the structure. This little addition gives a level another direction that players have to go, you aim for the sleeping goos (to gain more goos) and then you aim for the pipe to end the level. In this level, the goos are sleeping on the other side of the chasm, directly below the pipe, so you build toward both at the same time. Second, the level is larger than the screen so that you have to move the cursor around to explore the whole level. You have a small bouncing arrow that points you in the direction of the pipe when it’s not visible on the screen. This provides you with wayfinding mechanism for larger levels. In both cases, it’s a gentle introduction into new gameplay mechanics. Third, we are introduced to the Sign Painter. There is a small wooden sign (with exclamation points bouncing around it) and if you click on the sign, you get to read a message from the Sign Painter. Clicking causes the sign to pop up, covering the screen, and the message can take up several signs (you click to “scroll” through all the signs).
+
+This first message discusses the mysterious pipe (with a warm and inviting look) across the way, and how the goo balls wondered where it might lead. The message ends with a sign off from the Sign Painter and then the sign drops off the screen and you’re able to play the level (and the wooden sign in the level no longer has a bouncing exclamation point). This introduces you to how a lot of the information is shared throughout the game. Every level from here on out will have a sign or two that serves as units that provide you with commentary, suggestions and opinions, often with a dash of snarky humor that reminds me of the writing found in games written and designed by Tim Schafer.
+
+The gameplay variations continue in the next levels, “Hang Low” and “Impale Sticky.” In “Hang Low,” the level requires you to build down to wake up some goos and then build up to the pipe above (so two different directions in the level). And we’re introduced to a new type of goo; albino goos. These goos are able to connect with up to four goos on a goo structure (so twice as many connections as a common goo). And they are able to make much longer trusses than normal goo, although they are much more jiggly and bouncy than normal goo.
+
+  Story Development
+
+In between this level and the next is the first short narrative cutscene. The screen stays in widescreen and you see a huge World of Goo Corporation silo with a “Now Open” sign and two women gesturing like Vanna White at the sign as ominous music plays. It then shows a woman saying “let’s go shopping,” and she is joined by three more as they run off and you see another sign that notifies you that the World of Goo Corporation is now unlocked and it highlights it’s place on the world menu map (accompanied by more ominous music). With the Sign Painter and this cutscene we’re getting our initial exposition, and a further foreboding sense now connected to this corporation.
+
+Metagame
+
+Back in the Chapter 1 menu, you now have a silhouette of the World of Goo Corporation silo down in the bottom right corner of the screen along with text that tells you that it’s a shortcut to the World of Goo Corp. and a number (+22) that marks how many extra goos you’ve collected above the minimums required to complete the levels. If you click on the shortcut silhouette you are introduced to the metagame (you can also get to the metagame from the main world menu). It’s a very industrial scene with all the extra gooballs roaming around a small triangular base structure from which you can start building.  There is a large sign that lets you connect to the internet if you click on it, and it informs you that the clouds you see in the sky are the height of other players’ goo towers. Each cloud has a profile name and a national flag to represent the other players in the metagame. You can also see your own cloud, and in the upper right it tells you how high your tower is (in meters) and the number of goos used along with the total number of goos you currently have available for the metagame. On the Wii, the metagame works through WiiConnect 24.
+
+ 
+
+There is also a computer terminal that when you click on it, and it says it’s a World of Goo Corporation terminal with no new messages. Along with the terminal is a wooden sign. Clicking on it gets you another message from the Sign Painter who lets you know that this is the new World of Goo Corp. 2.0 campus where all the extra goos come. The Sign Painter also notes that everyone is building up, as if it were a metagame (hint, hint). There is also a reset button at the bottom of the screen. Clicking on it causes a red alarm to sound, which you can either turn off, or click again to reset your metagame tower and start rebuilding from an initial triangle foundation. It’s nice that this is made into a two-click process so that players don’t accidentally reset their towers. There is also a “Save and Exit” button that will save your metagame progress and take you back to your last menu.
+
+ 
+
+So, you can start building a tower up, a nice clear homage to the original Tower of Goo where players also competed to build the tallest towers. Here the pure goos are grey and behave like the common goos with a twist in that they all can be detached and reattached to the tower you’re building. The metagame clouds give you a sense of how other players are doing (although you cannot see their towers which would be informative and kind of cool (and is addressed in a fansite) and it encourages you to replay levels, since you can get more goos for the metagame if you can collect more extra goos above the minimum required. The metagame also factors into the story later in the game.
+
+Back to the levels in Chapter 1, the units of gameplay continue to diversify. In “Impale Sticky” you have to build out from a cave, up and around a set of spinning gears (that will break your structure if it touches the gears) to a ledge above with sleeping goos, and then up to the pipe above. So you’re building both horizontally and vertically. You also have another large wooden sign (like the one from the first level) that tells you that you can pop a timebug to go back in time by one move.  This doesn’t make sense until you see little bugs periodically pop into existence (seemingly based on the number of moved you’ve made) and flutter about. If you click on one of these flying bugs, the screen will flash and your gameplay will be rewound by one move. If you don’t click on the bugs, you end up with several silently buzzing about in the sky. 
+
+Physics is Your Friend
+
+I’ve only just begun to cover the types of iterations and variations throughout the game, but as you can already see, they continually keep coming. It keeps the game from ever feeling repetitive or boring, and keeps the player engaged and challenged. While it would be fun to walk through each and every level in great detail, with 6 islands encompassing 48 levels and around 25 different goos, it would also take a rather long time, so instead I’m going to focus on key points across the game that introduce interesting units of mechanics, concepts, themes, and narrative.  That said, I should note that “Impale Sticky” was the first level where I really clued into how much physics really is your friend (in terms of the fundamental fairness of the gameplay) so much so that it becomes an overarching theme running through the game. In this level, you have to build a structure that goes out into space and then up and around to a ledge above; so, it’s inherently unstable and sways and wobbles a lot. But I noticed that you could make the structure more sound by building up to the roof of the cave and wedging the base of the structure into the cave from floor to ceiling, and that this provided a more stable anchor from which to build. Starting with this level, “physics is your friend,” became a mantra for me throughout the game. No matter what the variation, there was always a physics-based solution to every level and puzzle, which made them all feel fair, and hugely satisfying to complete. Plus, the sense of fairness helped alleviate frustration as the difficulty increased, you felt rather smart as you could figure it out as long as you considered the physics.
+
+
+© 2D Boy, LCC 2008. All rights reserved. Image reproduced with permission.
+
+Looking more at Chapter 1, the “Flying Machine” level introduces balloon goos, that come with a elastic balloon sounds effects and can be attached, detached and reattached to common goo structures and also to various levers found in levels. When attached, the balloon goos inflate and can help float a structure, or raise a lever. Interestingly, balloon goos are one of the few goos that don’t get sucked up into the pipe at the end of the level (and this is never really explained, they just never do). Next “Ivy Towers” introduces us to ivy goos. Ivy goos are really elastic and can connect to 3 points on a goo structure, and they are also able to be attached, detached and reattached. This enables you to build multiple structures with the same goos in any level that has ivy goos which in turns comes with levels that require you to do just that.
+
+“Fisty’s Bog” uses balloon goos to support a horizontal bridge that you have to build while not going too high or too low. This adds a new timing dimension in that you have to build well, but also quickly, in order not to rise up too high or fall down too low as you shift balloon goos around while building your bridge.  This is actually opposite of how I normally play this game (taking my time and trying to figure out the physics to build a sound structure) but it still felt fair in that time is just another dimension of physics, you still have to build good structures, you just have to do it quickly as well. And this is one of the first levels where the groupings of goo on the structure play a role in terms of timing, as you often had to quickly grab for a balloon goo amidst a crowd of common goos (or vice-versa) and if you missed, you would go too high or too low. Again, this felt fair from a physics perspective in terms of a cluster of goos and time pressure, as you still had to be quick and pay close attention to the highlighted goo before you click. Also, this is one of the first levels where I realized the physics of the sucking pipe can be used to your advantage as well. Once you get close enough to the pipe, the sucking actually pulls on your structure, which provides some stability to help end the level.
+
+In “Ode to the Bridge Builder,” the penultimate level of the first island, you see a throbbing sign off in the distance that appears to have two eyes. Clicking on this sign gives you a message from “MOM” saying hello, and asking if you are there, and if you are coming home. These MOM signs are few and far between, but it’s now apparent that MOM is another character in this story.
+
+Chapter 1 concludes with “Regurgitation Pumping Station,” and the gameplay units are more directly tied to the narrative units in this last level, as you don’t build toward a pipe. Instead, you have a different, less defined goal that relates to the story. In this level, the Sign Painter lets you know that the goos don’t realize they’re delicious (the goos happen to be in a stomach at the time) and that you may have to leave some goos behind, but that’s okay, we’re all in it together.
+
+The idea that the goos are delicious (and don’t even realize it) underscores their innocence in this unfolding saga as well as their charm. Also, the notion that we’re all in this together gets repeated by the Sign Painter throughout the game, giving us an ambiguous hint that our relationship and role with the Sign Painter and the goos is cooperative.
+
+You build up and free the goos which transitions to a cutscene that shows the goos floating away, and text scrolls relating to you how the goos can see farther than ever to other new places and islands with new goos and endless play possibilities. And that the goos knew they would never be back. With that we get a cheer and the “End of Chapter 1.”
+
+ 
+
+You’re now back in the world menu, and with a gooey explosion, there is now a bouncing arrow over Chapter 2, “Little Miss World of Goo.” This island now highlights along with Chapter 1. Note, you can return to Chapter 1 and replay any of the levels if you want. But let’s click on Chapter 2 and explore a new island as well as a new season, “fall”. So, you’re not only moving from island to island on the world, you’re also moving through time as you progress. These units of time and space help give a sense of how the story is progressing as well. After Chapter 1, we’ve had a solid introduction to the story of the world, and we’re definitely involved in the game. In fact, due to the solid physics mechanics, gorgeous audio and visuals, along with the humorous story, I’d say I was already firmly immersed at this point in the game.
+
+:media:islands:ch2.jpg
+© 2D Boy, LCC 2008. All rights reserved. Image reproduced with permission.
+
+Aesthetic Theming
+
+In Chapter 2, the menu screen has a different feel than Chapter 1, gone are the vibrant greens and blue sky, which has been replaced by muted browns and greys with leaves blowing across a tan sky. There are windmills, power lines and gears with goo chains, along with a grey ovoid structure with a prominent tower that becomes a torso topped with a women’s head, eyes closed, hair blowing in the wind. There is definitely a sense that nature has succumbed to industrial progress, which has efficiently harnessed goos in some manner, and it seems rather foreboding that this large woman  (Little Miss World of Goo?) is somehow plugged into this machinery as well.
+
+Chapter 2 immediately introduces new units, with a new goo in the first level, “Drool.” Water goos are transparent and drippy goos that only make one connection, so they are ideal for forming long chains.
+
+This is followed by another type of goo in the next level, “Fly Away Little Ones.” Here we find black goos without any eyes that move around, but you can’t grab them directly. Instead you have to use other goos to create a structure to help herd them along toward the pipe. Next, the windmills from the island menu are incorporated in the level, “Blustery Day,” as they become structures you have to build around since the windmill can chop up your goo structure.
+
+And then a unique goo is introduced in “Beauty School” along with a new mechanic. An extra large beauty goo with a full pink face and eyes that follow your cursor around. You can’t directly grab a beauty goo, instead you have to guide it through the level using other goos and into a set of gears that pops the large beauty goo into a bunch of tiny little goos with red lips (and two eye goos). The Sign Painter lets you know that this level has a red pipe, and that red pipes are exclusive. It turns out red pipes will only suck up the smaller goos that came from the large beauty goo.
+
+So, we have another twist in units in terms of your goals in certain levels with red pipes. Also, in Chapter 2 you’re introduced to levels that have more movement, so it’s not just about building, it’s also about negotiating goos around and across moving parts and surfaces across larger levels. In fact, almost all the levels are large enough that you have to pan the camera (by moving your cursor) in order to see the whole level. And some of the levels also limit how much of the level you can see, until you build a structure close enough and then you’re able to scroll to see more of the level.
+
+More Variations
+
+The continual pace of unit variations on gameplay is almost dizzying in terms of the creative energy, and yet they all build solidly on the fundamental mechanic rather seamlessly so the flow of the experience is quite smooth and enjoyable. There is a great interest curve as you are constantly having to play in different ways as different levels require different strategies. The experience is kept pleasurably frustrating; it’s not too easy, nor is it too hard (Davidson, Well Played, 2008). Ideally you get increasing challenges followed by a reward and possibly increased dynamics that may make it a little less challenging for a bit, but soon ramps up again. Chris Crawford (1984) refers to this as a smooth learning curve in which a player is enabled to successfully advance through the game. Greg Costikyan (2001) notes that "play is how we learn" and move from one stage to the next in a game. Mihalyi Csikszentmihalyi’s (1991) notion of flow, in which a person achieves an optimal experience with a high degree of focus and enjoyment, is an apt method for discussing this process as well. And James Paul Gee (2004) thinks that well designed games teach us how to play them through rhythmic, repeating structures that enable a player to master how to play the game. In terms of unit operations, the units are being juxtaposed well so that the meaning and mastery builds as you play. As Gregory Weir (2008) notes, World of Goo does an excellent job with variations to create compelling gameplay.
+
+In terms of story, there’s a short cutscene after “Beauty School” that shows a woman with a make up container (full of goo?) that she then applies to her face, giggling all the while. As I mentioned earlier, there is some concern that guiding the goos into these pipes may not actually be a good thing for the goos.
+
+This cutscene , combined with the goos’ lovable and endearing behavior (which made me feel very protective of them) had me even more worried about what was happening to the goos. At the very least, it seemed that they are being made into a beauty product (!). There’s also a very short cutscene after the next level, “Leap Hole,” where you’re told that you’ve found the whistle and that goos are fascinated by it.
+
+Whistle while you work
+
+Now you can click and hold to whistle (and you see musical notes around your cursor while you hear a bird-like tune) and goos move toward you. So, a new unit of gameplay is introduced through the story right around when I found myself rather conflicted about what was happening to the goos. I now have the ability to have them come when I call, which makes me feel even more responsible for them, and for what may be happening to them. This is followed by the level, “Whistler,” where you are immediately required to use the whistle in order to complete the level. Interestingly, I never really thought much of the whistle for the rest of the game, but when I started a new profile to play through the game a second time, I realized I had been using the whistle all the time after I found it. It became a great way to get the moving goos where you wanted them in order to build more effectively.
+
+At the time, I related this impression to Kyle Gabler and he shared that this mechanic was actually suggested by their fans in their forums. So as well as adding a subtle and useful mechanic to the game, it also is a great example of how 2D Boy worked actively with their community as they developed the game. Kyle also related that there is an easter egg in the next level, “Beauty and the Electric Tentacle,” which I found (but won’t spoil here) although the “original” Sign Painter just tells you it’s so simple.
+
+Back in Chapter 2, the story continues to grow along with the gameplay. You see another sign from MOM, the Sign Painter hints that you’re getting close to the source of power, but won’t tell you what it is, and the level design gets more complex. In “The Red Carpet,” you have a level that requires several different stages of construction that need to be done in the correct sequence in order to succeed. It’s rather reminiscent of a Rube Goldberg contraption, but one that you have to puzzle out and construct correctly with various goos.
+
+
+© 2D Boy, LCC 2008. All rights reserved. Image reproduced with permission.
+
+It’s an interesting new dynamic unit that again adds even more of a sense of time and timing into the gameplay. This is followed by the final level, “Genetic Sorting Machine,” which has a narrative dimension similar to the end of Chapter 1. You start this level separating 3 “ugly” flesh-colored large beauty goos from the “pretty” pink one.
+
+The ugly large face goos are actually broken apart in order to fill a pit so that the beauty goo can travel over them and onward and upward. The beauty goo is also broken apart and then up a pipe to a platform with a large sleeping women (Little Miss World of Goo, I presume), and you end with these pretty goos getting sucked into the red pipe in her head.
+
+This starts a cutscene that relates that the giant lady is an electric generator powered by beauty, but her power has been fading as she got older. Until now, with all the new surgery options and beauty products, her beauty and power is back (even though she can’t move her face) and there’s electricity for everyone. And a new factory opens in the south, “End of Chapter 2.”
+
+More Story
+
+So, we’re back in the world menu with the bouncing arrow over Chapter 3, “Cog in the Machine.” Before we move forward, let’s consider that last cutscene and the continuing development of the satirical story of this game. We’re solidly into rising action now and definitely involved in the game. Chapter 1 showed us how the goos were being plundered from nature. Idyllic summer was beginning to be industrialized. In “fall” (or Chapter 2), we saw how beauty was waning and the island was more fully focused toward civilization as opposed to nature. Power was at the heart of the problems, and in this world it’s intertwined with beauty, giving us a twisted satiric metaphor of our own celebrity-driven culture. And with our help, the goos have increased the power and enabled a factory to open. Goos seems to be a wonderful universal everything, they are delicious and nutritious and able to be used in a variety of inventive and (possibly) nefarious ways. The foreboding feelings of before seem to have been confirmed, the adorable goos are being used, maybe (hopefully) we can save them.
+
+:media:islands:ch3.jpg
+© 2D Boy, LCC 2008. All rights reserved. Image reproduced with permission.
+
+More Aesthetics
+
+Chapter 3 continues with the island variations. This chapter menu is full of muted greys, blacks and browns and it’s snowing, as it’s “winter.” The island appears to be fully taken over by a factory, with a base that closely resembles a boxed and wrapped present. From this base, a large hand holds up a tier of tottering towers and smoke stacks. You hear the muted voices of children, adding to the oddball holiday air. This third chapter appears to be focused on manufacturing and machinery. As before, the gameplay variations continue at a constant pace. In the first level, “Burning Man,” you’re introduced to fuse goos which when added to the structure the connections look (and sound) like matchsticks.
+
+The fuse goos are highly flammable, so if you get a structure near a flame the whole thing will burn down. So now you have levels in which you need to avoid flames at times, or build toward them in order to burn down a fuse structure and move whatever it’s supporting, or free a structure made up of other goos (who don’t ignite), or build quickly since part of your structure is already ignited. The units of gameplay resonate with the development of the story and the theming of the islands.
+
+During “Second Hand Smoke,” the Sign Painter shares a rumor that everything changes in Chapter 4. After this level, there is a cutscene announcing that Z Product is coming soon, and our group of shopping women from Chapter 1 are there to express their excitement. So, it seems World of Goo Corporation is making an ultimate Z product (out of goos?).
+
+The industrial feel is carried across levels full of flames and robots and bombs. In “Misty’s Long Bony Road,” we have a level reminiscent of “Fisty’s Bog” from Chapter 1. You have to build horizontally, but instead of using balloon goos to float a long bridge, you get to use bone goos to support your goo bridge from below, and keep it from touching the spiky ground as you build a bridge that is about 3 times as long as the one from Chapter 1. Like balloon goos, bone goos can be attached, detached and reattached as you work to extend this bridge. So, a nice little twist on an earlier level along with increased difficulty, which feels appropriate as you’re now in Chapter 3. Although, unlike balloon goos, bone goos can be sucked into the pipe at the end of the level (again, this isn’t explained, it just happens).
+
+
+© 2D Boy, LCC 2008. All rights reserved. Image reproduced with permission.
+
+And the variations just keep coming. In “The Third Wheel,” you have another new goo, a pokey goo that can stick to anything, this enables you to attach, detach and reattach goo structures to other surfaces in order to move entire structures around a level. “Water Lock” has another sign from MOM, and the Sign Painter is underwater and can only say, “Glrff, Grlgle.” In “You Have to Explode the Head,” you find sticky bomb goos, which are like pokey goos except they’re bombs, so if they’re stuck to a fuse goo structure that happens to ignite, they explode. “Incineration Destination” also has sticky bomb goos, and provides an interesting scenario where you have to build two bridges together (one of fuse goos and another of albino goos) in order to be able to ignite the bombs and still have a bridge after all the explosions. It’s yet another unit with a clever twist on the gameplay.            
+
+ 
+
+The last level of Chapter 3, “Product Launcher,” provides a big twist in the developing narrative and gives us some conflict. You help launch Product Z with a bang. The Sign Painter tells you that the product launch will change the world.
+
+At the end of the level, you cause an explosion and then you go to a cutscene that shows a huge gun (held by a huge hand) and it shoots a green ray up into space. A large crowd of people look up as now there is a glowing green square above the world. The square starts falling down and the crowd panics.
+
+ 
+
+Major Story Twist
+
+It impacts and forms a glowing green cube around the world, which in turn, syncs with the world, leaving a green wireframe matrix on the world. A computer terminal pops up into the screen (reminiscent of the Sign Painter signs, except this time it’s from, “your friend, World of Goo Corporation”) and congratulates you on reaching the 3D world, although you don’t have the technology to access this level, so you’re going to have to visit tech support on the information superhighway, “End of Chapter 3.”
+
+We’re back in the world menu with the arrow bouncing over Chapter 4, Information Superhighway. It seems that we’re about to go virtual. We’ve got a conflict in our story, and to be honest, I’m beginning to feel invested as I’m engaged by the experience as a whole and definitely want to complete it (and hopefully save the goos). With our help, the World of Goo Corporation has launched Product Z, which has created a virtual matrix of (and on) the world. The story has an even stronger satirical resonance with our world and the game industry specifically. Digital 3D technology is constantly advancing and pushing the limits of computer hardware. As a gamer, there’s almost always a new game coming out that would require the purchase of new hardware (whether it’s a new console, or an update of a graphics card for your computer) in order for you to play the game. In this culture, 2D Boy have gone old school and made a 2D game that can be played on most any computer. Back in the game, it looks like we’re going to have to go to the information superhighway (or Chapter 4) in order to upgrade for the glories of Product Z.
+
+:media:islands:ch4.jpg
+© 2D Boy, LCC 2008. All rights reserved. Image reproduced with permission.
+
+And Now for Something Completely Different
+
+Chapter 4 seems to be out of time. It’s the first chapter that’s not a season, it’s denoted as “meanwhile…” It also seems to be out of this world, the menu screen harkens back to the glowing greens of old computer screens. This virtual island has highways wrapping around and around, and it’s topped by a large computer monitor along with what appears to be a recycle bin off to the right. So, we’ve stepped out of the world, into this digital corporate creation. Interestingly, the metagame, which has mainly just benefited from the extra goos you get across all the levels, has now become a part of the story as well. After completing Chapter 3, a visit to the metagame now shows you that it’s the beta of the “My Virtual World of Goo Corporation,” and it’s all virtually green with crazy 8-bit arcade-style music. The terminal still doesn’t have messages, but the Sign Painter now discusses avatars and virtual reality, all brought to you be World of Goo Corporation. So, the world really has changed.
+
+The units of gameplay also reflect this change with some of the most unique iterations and variations yet. The first level, “Hello, World,” introduces a new round green goo in a clever way. Much like “Small Divide” in Chapter 1, it looks like you just have to build a bridge across a chasm. But when you grab one of these new goos you get a surprise. Instead of getting the usual highlighted lines, you now get an arrow that lengthens as you pull farther away from the structure. When you let go, this goo shoots across the chasm, leaving a binary trail of 1s and 0s, landing on the structure across the way, and waking up square goos.
+
+These square goos seem to be the virtual version of common goos, and there is some virtual gravity you have to account for as the round goos arc across space. These digital goos bleep and bloop as you interact with them. The green wireframe in the background resonates with the virtual story as well as helping to aim your shots with the grid. So, you shoot the round goos across and then build up to the pipe with the square goos. “Bulletin Board System” quickly builds on the addition of these new goos, with gusty virtual winds that you have to adjust for as you aim and shoot the round goos through the level. The Sign Painter informs you the place is falling apart and that the graphic cards need upgrading (maybe in a later level).
+
+Trustworthy Narrator?
+
+I should note that in Chapter 4 the Sign Painter signs are actually terminals (as opposed to wooden signs). This gave me a weird frission in that I wasn’t certain I was still hearing from the Sign Painter or if the signs had been co-opted and I was possibly hearing from the World of Goo Corporation (particularly after the terminal/sign from “your friend, World of Goo Corporation” at the end of Chapter 3). The tone was consistent, but just switching to a terminal made we wonder, which reminds me of how fluid digital identity is, and how pseudonyms and (mis)representation through avatars and usernames occurs. So, the narrator of the game, while always snarky, is now a little more unreliable.
+
+ 
+
+In “Grape Vine Virus,” yet another new goo is introduced, along with a new red color to go with the green. Round green goos that touch the red virtual fluid, turn into infected red goos. These new goos shoot as well, and they also can be shot to attach to extend chains (like the water goos).  “Graphic Processing Unit” has both the green goos and the red goos on a small moon above a planet. The Sign Painter tells you that this is the creative, graphic heart with 256 colors. The planet’s gravity plays a large part in this level as it strongly effects all your shots. You have to curve around the planet with elliptic shots with red goos to form a chain to the pipe, and then shoot the green goos onto the chain. “Road Blocks” shows the new graphics, and the Sign Painter notes how everything is in stereo and colors, as simulated water splashes over pieces the information superhighway. And this comes along with more new goos, large square and rectangle rocky block goos (another species of goo that doesn’t get sucked into the pipe). In this level, you stack these blocks up to provide support for a common goos bridge. In “Graceful Failure,” you play a gooey version of Jenga, unstacking a tall tower of block goos to lower some other goos to a pipe below.
+
+MOM
+
+In the next two levels, the Sign Painter tells you about a surveillance system that used to monitor everyone and may still be working and that all the servers are 99.9% stable (guaranteed). You also get another sign from MOM, right before the penultimate level, “MOM’s Computer.” This is another one of the more narrative levels. Interestingly, Chapter 4 felt like an interactive embodiment of Ian Bogost’s (2007) ideas on how units can operate together to form experiences. It’s an old glowing green desktop screen, with an open application window and icons for Apps and Games. Clicking on the icons gives you rectangular games and square apps. You can catch these digital blocks and start stacking them on the application window to build a tower. You can build up and out of the desktop. The Sign Painter is up here and asks how high does it go. You keep stacking and you see more icons for Apps and Games, soon you see a Shortcut to MOM. If you click on it she says to come closer. Once you get close enough, clicking on the shortcut opens up a pop up window to MOM. The window has eyes and a text field and an “Ask” button. Clicking on the text field starts a dialogue tree with MOM.
+
+::::::Desktop:mom.png
+© 2D Boy, LCC 2008. All rights reserved. Image reproduced with permission.
+
+Satirical Story
+
+Apparently, MOM is an automated search companion who wants to help you. She has been baking your information into cookies. She used to be a big website, but the users got small. She bakes all your info into the cookies to help you. She discusses 3D and 2D as well as how the information superhighway was abandoned, but she’s hoping users come back, and that your info is safe with her unless someone asks for it. She can delete your info, but then she’ll forget you. She was written with love and feels good, and she can help you destroy World of Goo Corporation, although that’s not really friendly. She has a million messages to deliver and knows what’s best. She’s happy if you let her keep your cookies (if you delete them, you get kicked out of her computer and you have to stack back up to click on the shortcut again). She’s been watching you, and everything is going well. She sends spam to everyone with love, but with everyone gone she keeps sending special offers and invitations to visit. She’ll send you an invitation and all of her offers, but she needs your help. All of her emails have been deleted, so she needs you to go to the recycle bin and undelete all her offers. As long as you accept her terms and conditions, she’ll take care of you, and she sends you an email with love to the World of Goo terminal.
+
+You’re then told that, “You’ve Got Mail,” from the World of Goo Corporation and you’re back at the Chapter 4 island menu, which now has an email icon along with the shortcut to the World of Goo Corporation. If you try to go to the recycle bin (the last level), “Deliverance,” you can’t go, you get a 403 error message and are told to check your email. This is where the metagame level is directly involved with the story. Going to the World of Goo Corporation, you also see an email icon in the computer terminal. You read that you’ve been selected for special offers from MOM, and you can cancel or accept. You have to accept in order to be able to go to “Deliverance,” and you receive another email letting you know you’re a special member of MOM’s club. Now that you’re a member, you can go to the recycle bin. It’s another glowing green and red level  with a narrative focus, that starts with a huge “Undelete” pill dropping down into the bottom of the recycle bin with a bunch of virtual block goos.
+
+You can shoot the round green goos through some red flame and they in turn ignite and then explode the blocks and also the bottom, dropping everything (along with the pill) down a tunnel full of more round goos and blocks and red flame. The Sign Painter (or World of Goo Corporation) warns you that you’re not supposed to be here, and asks you where all the undeleted files will go. You repeat the process and drop further down until you reach a point where the pill falls into a net of square goos suspended over a roiling red pit of liquid with what looks like a large robot skeleton floating in it. You ignite the net which causes the pill to drop into the pit and you get a warning window, telling you that undelete is unstable and cannot be undone, click “Yes” or “OK.” Either way it starts the climatic cutscene.
+
+You watch the pit of liquid boil over with a ton of email messages gushing up and out of the recycle bin. You then see the whole world, and a terminal pops up, “New Mail!” and then the World of Goo Corporation swells until it pops. The World of Goo Corporation is destroyed and the green wireframe matrix fades away. You then see the ruins and a broken billboard (“We’re all in it together”) falls from the sky, “End of Chapter 4.”
+
+So, it looks like you’ve saved the world from the corporation and also freed the goos. The metagame is now titled the Tower of Goo Memorial Park and Recreation Center. When you go, you see everything back to normal (i.e. no longer “virtual”) and there’s no terminal anymore, the Sign Painter asks you to take care of this sign (after all the previous explosions) and there is something missing, the air is full of debris. Also, the rest of the goos all seem to be here, but they’ll have to build higher if they want to see.
+
+Chapter 4 definitely served up the story’s climax along with lots of inventive gameplay variations to go along with it, and I’m decidedly invested now as I’m excited to complete the game.
+
+:media:islands:ch5.jpg
+© 2D Boy, LCC 2008. All rights reserved. Image reproduced with permission.
+
+Full Circle
+
+The Epilogue, “End of the World,” brings us back into the world and back into time with “spring.” You are high up in a sunrise sky among four connected spires with the highest one topped by a telescope (although you can’t see this at first until you complete the 3 lower levels). This island brings us back to a more natural setting reminiscent of Chapter 1. It feels a bit more precarious as we’re up so high and the spires are so slender. But there’s also a sense of possibility and potential as the telescope beckons us upward. Previously, each Chapter had around 10-12 levels, while the denouement of the Epilogue only has 4. In terms of gameplay, this is the final exam with some of the most challenging construction in which I should be able to play the game at a high level of expertise and display some form of mastery of the gameplay mechanics and dynamics. Initially, I was expecting some form of crazy Rube Goldberg combination of all the units of all the various goos from all the previous levels. Instead, these final levels pare it back to the original fundamental units of gameplay and use common goos, balloon goos and plain black goos, and just challenge you to build well.
+
+“Infesty the Worm” takes bridge building to an extreme, as you have to use balloon goos to keep raising and lowering a horizontal goo structure end over end as you extend it to reach islands on your way to the distant pipe. The Sign Painter can see you (so you must be getting close) and you’re told that all the debris from the explosion are blocking the telescope unless it can get higher.
+
+
+© 2D Boy, LCC 2008. All rights reserved. Image reproduced with permission.
+
+“Weather Vane” requires that you build up into the clouds, over a spinning blade, and back down to a pipe. The Sign Painter is not waving to you anymore. “Horizontal Transportation Innovation Committee” challenges you to somehow cross the widest chasm of the game, and the Sign Painter says there are just some raw pure goo left filled with hope and ambition, but you can give up and no one will know, except the Sign Painter. After these three tricky levels, you reach the final level, “Observatory Observation Station,” which again has a more narrative dimension. The Sign Painter (now revealed as the Telescope Operator) notes that all the goos are at the memorial and the telescope isn’t high enough and wishes you goodbye. You see all the spires in the distance and large pink goos floating in the water around this tall island.
+
+You can attach these goos to the spires and they start fluttering their wings, pulling the whole island up and into the final cutscene. The whole island raises up, and you can now see far, the telescope sees every species of goos from all the islands (giving a visual recap of all the chapters and levels, and a view of a tower of goo going up to the sky). There are hints that the goos are building to future adventures and the telescope looks up to the stars and you see the floating goo structure (from the end of Chapter 1) as it floats through space. And you see goos popping up on the moon, and then the credits roll and you’re back to the world menu.
+
+The End?
+
+So you’ve completed the game, but you can now go back and replay all the levels across all the chapters and try and get more goos into the metagame to build your tower higher (there’s a limit of being able to use only 300 balls in the metagame. And there’s a leaderboard for both the metagame and for each level). Interestingly, the only level that can’t really be replayed is “MOM’s Computer.” If you stack back up to her shortcut, you’re told she has gone away, although this doesn’t effect the metagame, but it does mean you have to get OCD on your first try. Outside of that, you can play every other level again if you want.
+
+Joyful Resonance
+
+And there’s definitely a joy to replaying, even though you know how to do it all, and you’ve experienced the story. The metagame beckons, but it’s also a joy to build structures well, the fair physics gameplay continues to provide satisfaction. In fact, joy would be a word I’d use to describe my playing experience with World of Goo. It really is a joy to play. This also resonates with the development of the game itself, as 2D Boy worked hard to make their first game well, it’s obvious it’s been a labor of love. This resonance is also found in the story. Kyle Gabler shared with me that;
+
+“the overarching story of World of Goo is a big metaphor for the development process. Curious and naive little goo balls, encountering a large international corporation with a global pipe distribution system. Meanwhile, we're a curious and naive new indie studio, eager to explore, having to deal with large international publishers and their global distribution systems. Hope, ambition, curiosity, etc, colliding with cold gray reality.  World of Goo Corporation is a giant metaphor for some of the absurd experiences we've had along the way with publishers so far.”
+
+So, you not only help the goos in the game, you also help 2D Boy by buying World of Goo.
+
+ 
+
+ 
+
+                                                                And So…                                                               
+
+Thinking about World of Goo, the discussion of the cultural buzz, and the participation with the development process, along with the analysis playing the game has helped me fully capture the experience I’ve had with this game, particularly as they resonate so well together. I’ve definitely been aware of the media coverage and industry attention, and 2D Boy has done a savvy job on making the most of this exposure to help them develop the game independently. Being involved (even in a small capacity) in this process helped me appreciate the design and development decisions as I watched them tweak the game and work up to the public release. They continually worked on the balance of the gameplay and the difficulty curve for the best flow, along with additions of signs and cutscenes to help best relate the story, and a never-ending effort to polish every facet of the game, from game design and narrative, to art direction, to music and sound, and to technical excellence. I’ve mentioned it in passing throughout, but the quality is high across the board, and it all resonates well together for a great experience. David Rosen (2008) provides an in-depth video design tour that really clues into all the little details that add up to the overall experience. The game design and story are clever and build well together, and they are complemented by gorgeous art direction that is both wacky and dark.  The music and sound effects are stunning, every goo has a unique sound, which only adds to their collective charms, and the variety of music is impressive and just enhances the atmosphere. And technically, the game works well and the physics are rock solid and fair. 2D Boy’s attention to detail and quality have helped make the game as great as it is. And the industry has reached a point with distribution channels that enable independent developers to create their own games and get them out through broadband and open delivery systems like Steam and Gametap for computers, along with WiiWare, Xbox Live Arcade and Playstation Network for the current consoles. This seems to herald an independent revolution with high profile games like Braid, Flow, Fez, Crayon Physics Deluxe, Love, and many more being independently developed and distributed through mainstream channels.
+
+Another trend in games is user-generated content, and while World of Goo doesn’t have a level editor, Kyle Gabler informed me that fans from their forums are already working to create a level editor as well as an open-source version of the existing game for modding, and have also developed translated versions and visual player profiles. This will enable other fans of the game to create even more content in relation to World of Goo and 2D Boy has been supportive and encouraging of the community development, which in turn has increased the loyalty of their fans, and could also enable more fun and games.
+
+Exploring the narrative plot and the interactive levels has enabled me to show the moments in this game in which units of both elements were working to truly engage me in the experience. It is also a useful method for exploring moments throughout the experience that didn’t work as well as they could have. At times certain gameplay mechanics weren’t really explained at all. Overall, the zany story development and the variations of the fundamental gameplay help players comprehend the gaming situation, the "combination of ends, means, rules, equipment, and manipulative action" required to play through the game (Eskelinen 2001). That said, I kept my analysis with both diagrams at a general, high-level progression of the plot and the stages of interactivity. I think this was useful, but I also believe it could be interesting to get even more granular with both diagrams and really dig into units that show the details of the diversity of peaks and valleys of interest curve in the development of the plot of the story as well as the moments of engagement, disengagement and reengagement that occur during the progressive stages of interactivity. I think both macro and micro perspectives would be worthwhile to pursue in analyzing and interpreting interactive experiences (Davidson, Well Played, 2008).
+
+Ludic Narrans
+
+A good game can and should teach players what they need to know and do in order to succeed. Ideally, the very act of playing the game should enable players to master the gameplaying units of the gaming situation so they can successfully master the rising challenges and complete the experience. If a game gets too hard, too easy, too confusing, or if it just is too long and seems never-ending, players may not finish. For these reasons and more, players can reach a point where they drop off the curve and lose their sense of engagement, becoming bored, frustrated and tired of playing the game. But if a game enables players to stay on course and continues to hold their attention, players will advance to a point where their immersion develops into an investment in which they truly want to successfully complete the game experience. And when there is a lack in the balance of the interactivity, the story can actually help keep the player engaged in order to move from involvement, through immersion to investment and successfully complete the game (Davidson, 2008).
+
+World of Goo is a great example of how a game can combine gameplay and story together in a resonant manner. I think it has been useful to consider this game (and games in general) from a variety of perspectives. In doing so we can, as Marie-Laure Ryan (2001) notes, observe features that remain invisible from other perspectives. Engaging this medium of videogames, we tell our stories of the game as we relate the varied and visceral experience of the games we play. Noah Falstein (2004) discusses the “natural funativity” of games, how they are activities that help us live in the world. And stories are how we stitch together a continuity of our experiences. They are our “mystories,” our stories that enable us to understand the world (Ulmer, 1989). Narratives are how we convey the perspective of our experiences (Meadows, 2002). So, we are both homo ludens and homo narrans, or as Greg Costikyan (2001) states, “Play is how we learn; stories are how we integrate what we’ve learned, and how we teach others the things we’ve learned ourselves through play.”
+
+Now, in following the idea that humans begin life in a pre-linguistic consciousness as babies, it seems that we start solely as homo ludens. We literally learn everything through play as we interact with the world. And then we learn language, and a new phase of consciousness begins, one that dominates, shapes, and constrains our worldview for the rest of our lives (Huizinga, 1950). We are now homo narrans, we discursively talk about what we play, what we learn, what we feel, believe, think, etc (Schank, 1995). But being homo narrans does not erase our foundational homo ludens character; we are always already homo ludens, it’s just now we talk about it.
+
+I believe that games are an interesting medium, because there are definite para-linguistic activities involved, meaning is conveyed through gesture, space, color, sound and activity and agency. I think one of the reasons these experiences are so compelling is that they enable us to tap more directly into our pre-linguistic homo ludens consciousness as we play them. Of course, we then step back and talk about it, which engages our discursive homo narrans consciousness. Hence, ludic narrans, playful stories (Davidson, stories in between, 2008). I bring this up because I believe World of Goo is truly a playful story.
+
+Experiential Themes
+
+World of Goo does a nice job of increasing the complexity of the gameplay along with the satirical story development. In terms of gameplay, the variations are developed and iterated through a combination of a diversity of goos with different abilities, and constructive level design that required you to navigate across environments through building and movement, along with unique theming to every island through which the gameplay mechanics are related. This leads me to how the playful story also resonates with the actual gameplay. The story is also shared through the theming of the islands, as we move across spaces and times, and through short little cutscenes. And in almost every level, we receive messages from the Sign Painter, and we see messages here and there from MOM. It’s a satirically elliptical story with ambiguously ominous hints, which are constructively open to our interpretation.  The humor is referential and filled with snarky clues about the fate of the world and of all the goos. The story is related in bits and pieces, and like the gameplay, the story is a puzzle that we can piece together clue by clue and goo by goo as we fill in the blanks and figure it out. Throughout, three themes came to the fore of the gameplaying experience. First, is the overall aesthetic that I’ve come to think of as GooPunk.
+
+GooPunk
+
+GooPunk refers to steampunk with all the gears and cogs, but with a gooey twist of drips that wobbles deliciously, and combined with the audio and visuals, create a whimsical mood with dark undertones. Second, is the trickster humor found in the Sign Painter.
+
+
+© 2D Boy, LCC 2008. All rights reserved. Image reproduced with permission.
+
+ 
+
+Trickster
+
+As I mentioned above, the story is rather satirical, but even more so, the Sign Painter fulfills the role of the trickster; mischievous and ambiguous, seemingly helpful yet always playful and somehow connected to the creation of this world of goo. Also, Lewis Hyde (1998) notes how tricksters are grounded in dirt, and the goos themselves are dirty, delicious and delightful, and seem to embody the universal trickster spirit. Plus, considering how the story resonates with the development process, I think it would be fair to say 2D Boy represents a trickster in the field. In fact, it made me curious to see more tricksters in games. We definitely see a lot of the hero’s journey in games (Campbell 1949), it would be interesting to see even more tricksters.
+
+
+© 2D Boy, LCC 2008. All rights reserved. Image reproduced with permission.
+
+Friendly Physics
+
+Finally, the idea that physics is your friend became more than just a mantra, it became an experiential theme. In fact, in discussing this with Kyle Gabler, he noted that it was a conscious design choice to make sure all the levels relied on physics so that it was always fair.
+
+
+© 2D Boy, LCC 2008. All rights reserved. Image reproduced with permission.
+
+Well Played
+
+A game can be well played in two senses (Davidson, Well Played, 2008). First, well played as in well done, so a game can be looked at in terms of how well it is created. Second, well played as in well read, so through the experience of playing games you can develop a literacy of games. Lev Manovich (2001) notes, when engaging new media (or playing a game), we oscillate "between illusionary segments and interactive segments" that force us to "switch between different mental sets" demanding from us a "cognitive multitasking" that requires "intellectual problem solving, systematic experimentation, and the quick learning of new tasks.” So, when the units of story are effectively intertwined with the units of gameplay, the rising action of the plot can parallel the rising challenges of the gameplay, and enable us to have a compellingly engaging experience. There is a definite joy and pleasure, and you feel smart as you figure out the story and how to successfully build a variety of structures with a diversity of goos. World of Goo is a game wonderfully well played.
+
+ 
+
+References
+
+2D Boy. http://www.2dboy.com/
+
+Aarseth, E. (2003). Play Research: Methodological approaches in game analysis.
+
+Delivered at the Digital Arts and Culture Conference, Melbourne, Australia.
+
+Beanstalk Games. World of Goo Download.
+
+            http://www.beanstalkgames.com/games/view/world_of_goo
+
+Bloom, H. (1973). The Anxiety of Influence: A Theory of Poetry. New York: Oxford UP.
+
+Bogost, I. (2007). Persuasive Games: The Expressive Power of Videogames. Cambridge,
+
+MA: MIT Press.
+
+Bogost, I. (2007). Unit Operations: An Approach to Videogame Criticism. Cambridge MA: The MIT Press.
+
+Braid. http://braid-game.com/
+
+Campbell, J (1949). The Hero with a Thousand Faces. Princeton, NJ: Princeton UP.
+
+Costikyan, G. (1994). I have no words & I must design. Interactive Fantasy, 2. Available at: http://www.costik.com/nowords.html
+
+Costikyan, G. (2001). Where stories end and games begin. Available at http://www.costik.com/gamnstry.html
+
+Crawford, C. (1984). The art of computer game design. Mcgraw Hill.
+
+Crayon Physics. http://www.kloonigames.com/crayon/
+
+Csikszentmihalyi, M. (1991). Flow: The Psychology of Optimal Experience. New York: Harper Collins.
+
+Davidson, D. (2008). From Experimental Gameplay to the Wonderful World of Goo. Delivered at the Meaningful Play Conference, East Lansing, MI.
+
+Davidson. D. (2008). stories in between: narratives and mediums @ play. Pittsburgh, PA: ETC Press.
+
+Davidson, D. (2008). Well Played: Interpreting Prince of Persia: Sands of Time.
+
+Ed. Constance Steinkuehler. Games and Culture. Vol. 3, Number 3-4.
+
+Davidson, D. (2007). Well Played: Interpreting Video Games. Delivered at the Games, Learning, and Society Conference 3.0, Madison, WI.
+
+EGP Apparel. http://www.egpapparel.com/
+
+Eskelinen, M. (2001). The gaming situation. Game Studies, 1(1).
+
+Experimental Gameplay Project. http://www.experimentalgameplay.com/
+
+Falstein, N. “Natural Funativity.”
+
+http://www.gamasutra.com/features/20041110/falstein_01.shtml
+
+
+Fez. http://www.kokoromi.org/fez
+
+Flow. http://www.jenovachen.com/flowingames/flowing.htm
+
+Gabler, Kyle. Tower of Goo. http://www.experimentalgameplay.com/game.php?g=1
+
+Gabler, Kyle. Tower of Goo: Unlimited. http://www.experimentalgameplay.com/game.php?g=17
+
+Gabler, Kyle. World of Goo Soundtrack. http://kylegabler.com/WorldOfGooSoundtrack/
+
+Gabler, Kyle, Kyle Gray, Mat Kucic, Shalin Shodhan. How to Prototype a Game in 7 Days. http://www.experimentalgameplay.com/game.php?g=98
+
+GameFAQs. World of Goo. http://www.gamefaqs.com/console/wii/home/945832.html
+
+GameLab Institute of Play. http://instituteofplay.org/.
+
+Game Rankings. World of Goo PC Reviews. http://www.gamerankings.com/htmlpages2/954312.asp?q=world%20of%20goo
+
+Game Rankings. World of Goo Wii Reviews. http://www.gamerankings.com/htmlpages2/945832.asp?q=world%20of%20goo
+
+Games and Storytelling. http://www.gamesandstorytelling.net/.
+
+GameStats. World of Goo. http://www.gamestats.com/objects/142/14230232/index.html
+
+Game Studies. http://www.gamestudies.org/.
+
+GameTab. World of Goo Reviews. http://www.gametab.com/wii/world.of.goo/6990/
+
+GameTap. http://www.gametap.com/
+
+Gee, J.P. (2004). Learning by design: Games as learning machines. Paper presented at the Game Developers Conference, San Jose CA. Available at: http://labweb.education.wisc.edu/room130/PDFs/GeeGameDevConf.doc.
+
+Gee, J.P. (2007). What Video Games have to Teach Us about Learning and Literacy: Revised and Updated Edition. New York NY: Palgrave Macmillan.
+
+Greenhouse. World of Goo.
+
+            http://playgreenhouse.com/game/TDBOY-000001-01/
+
+Huizinga, Johan (1950). Homo Ludens. Boston: Beacon Press.
+
+Hyde, Lewis (1998). Trickster Makes this World. New York: Farrar, Straus, Giroux.
+
+Juster, Scott. (2008). Experience Points. Review: Connections within the World of Goo. http://experiencepoints.blogspot.com/2008/11/review-connections-within-world-of-goo.html
+
+Juul, J. (2005). Half-Real: Video Games Between Real Rules and Fictional Worlds.
+
+Cambridge, MA: MIT Press.
+
+Love. http://www.quelsolaar.com/
+
+Manovich, L. (2001). The Language of New Media. Cambridge MA: The MIT Press.
+
+Mateas, M. (2005). Procedural literacy: Educating the new media practitioner." On The Horizon, 13(2).
+
+Meadows, M. Pause & Effect: the art of interactive narrative.
+
+New York: New Riders, 2002.
+
+ 
+
+Metacritic. World of Goo PC Reviews. http://www.metacritic.com/games/platforms/pc/worldofgoo?q=world%20of%20goo
+
+Metacritic. World of Goo Wii Reviews. http://www.metacritic.com/games/platforms/wii/worldofgoo?q=world%20of%20goo
+
+MobyGames. 2D Boy. http://www.mobygames.com/company/2d-boy
+
+MobyGames. World of Goo for Macintosh. http://www.mobygames.com/game/macintosh/world-of-goo
+
+MobyGames. World of Goo for Wii. http://www.mobygames.com/game/wii/world-of-goo
+
+MobyGames. World of Goo for Windows. http://www.mobygames.com/game/windows/world-of-goo
+
+Montfort, N. (2005, March 16). Story and game. Available at: http://grandtextauto.gatech.edu/2005/03/16/story-and-game/
+
+Moore, Peter. Learning from World of Goo. http://itsinthegame.ea.com/archive/2009/01/18/learning-from-world-of-goo.aspx
+
+PlayStation Network. http://www.us.playstation.com/PS3/Network
+
+Rosen, David. (2008). Wolfire Blog. World of Goo Design Tour. http://blog.wolfire.com/2008/11/world-of-goo-design-tour/
+
+Ryan, Marie-Laure. (2001). Narrative as virtual reality. Baltimore: Johns Hopkins UP.
+
+Schank, Roger (1995). Tell me a Story. Chicago: Northwestern UP.
+
+Steam. World of Goo on Steam
+
+            http://store.steampowered.com/app/22000/
+
+Ulmer, G. Teletheory. New York: Routledge, 1989.
+
+ 
+
+VG Chartz. World of PC. http://vgchartz.com/games/game.php?id=17684&region=All
+
+VG Chartz. World of Goo WiiWare. http://vgchartz.com/games/game.php?id=19606&region=All
+
+Weir, Gregory (2008). The Goo Variations. http://www.gamesetwatch.com/2008/10/column_the_interactive_palette_2.php
+
+Wikipedia. World of Goo. http://en.wikipedia.org/wiki/World_of_Goo
+
+WOG Editor. http://apps.sourceforge.net/mediawiki/wogedit/index.php?title=WOG_Editor_overview
+
+World of Goo Beta Testing Site. http://www.beta.worldofgoo.com/
+
+World of Goo Corporation. The first World of Goo Fansite. http://www.goo-corporation.com/
+
+World of Goo. http://www.playwithgoo.com/
+
+World of Goo. http://www.worldofgoo.com/
+
+World of Goo. MOM. http://worldofgoo.com/mom.php
+
+World of Goo Community Wiki. http://hell.student.utwente.nl/wog/mediawiki/index.php/Main_Page
+
+World of Goo Corporation Leaderboards of Excellence and Quality. http://worldofgoo.com/leaderboard.php
+
+World of Goo Map Portal. http://www.dillxn.com/dillxn/wog/
+
+World of Goo Player Profiles. http://hell.student.utwente.nl/~maks/wog/
+
+World of Goo – Video Walkthrough, Tips, Cheats, OCD, Guides. http://worldofgoogame.blogspot.com/
+
+XBox Live Arcade. http://www.xbox.com/en-US/games/livearcadexbox360/
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Awards, Nominations and Lists - World of Goo and 2D Boy
+
+(rankings and designations in parentheses)
+
+ 
+
+1Up. Holiday Gift Guide. PC Games. http://www.1up.com/do/minisite?cId=3171170
+
+ 
+
+1Up. Holiday Gift Guide. WiiWare Picks. http://www.1up.com/do/minisite?cId=3171169
+
+ 
+
+1Up. Reader’s Choice Awards. Best Puzzle Game 2008 (Runner Up).
+
+http://www.1up.com/do/feature?cId=3172295
+
+ 
+
+1UP. Reader’s Choice Awards. Best Wii Game 2008 (Nominee).
+
+http://www.1up.com/do/feature?pager.offset=2&cId=3172003
+
+ 
+
+1Up. Reader’s Choice Awards. Downloadable Game of the Year (Nominee).
+
+http://www.1up.com/do/feature?pager.offset=2&cId=3172003
+
+ 
+
+AIAS 12th Annual Awards. Casual Game of the Year (Nominee).
+
+http://www.interactive.org/awards/annual_awards.asp?idAward=2009
+
+ 
+
+AIAS 12th Annual Awards. Oustanding Achievement in Game Design (Winner).
+
+http://www.interactive.org/awards/annual_awards.asp?idAward=2009
+
+ 
+
+Amazon. The Best of 2008 for PC games (in no particular order).
+
+http://www.amazon.com/gp/feature.html/ref=pe_32520_11070670_pe_prehead/?docId=1000299031
+
+ 
+
+Ars Technica. The five happiest gaming surprises of 2008.
+
+http://arstechnica.com/news.ars/post/20081222-the-five-happiest-gaming-surprises-of-2008.html
+
+ 
+
+Big Download. 2008 PC Game Awards. Best Indie Game (Winner).
+
+http://news.bigdownload.com/gallery/big-downloads-2008-pc-game-awards/1238848/
+
+ 
+
+The Brainy Gamer. Best art direction ’08 (Honorable Mention).
+
+http://www.brainygamer.com/the_brainy_gamer/2008/12/art-direction.html
+
+ 
+
+The Brainy Gamer. Games to play with your kids that won’t drive you crazy – 2.0.
+
+http://www.brainygamer.com/the_brainy_gamer/2008/11/games-to-play-with-your-kids-that-wont-drive-you-crazy-20.html
+
+ 
+
+Children’s Technology Review. 2008 Editor’s Choice Award for Excellence in Design.
+
+http://www.brightermindsmedia.com/company/news-press-awards/awards.php
+
+http://www.childrenssoftware.com/
+
+ 
+
+Crispy Gamer. 2008 Game of the Year Awards (6).
+
+http://www.crispygamer.com/features/2008-12-23/2008-game-of-the-year-day-3-the-cg-awards-8.aspx
+
+ 
+
+The Cut Scene – Variety Video Game Blog. The sixth best videogame(s) of 2008.
+
+http://weblogs.variety.com/the_cut_scene/2008/12/the-sixth-best.html
+
+ 
+
+Edge Online. Edge's Top 30 of 2008 (25).
+
+http://www.edge-online.com/features/edges-top-30-2008?page=0%2C2
+
+ 
+
+Edge Online. The Hot 100 Game Developers of 2009 (36).
+
+http://www.edge-online.com/features/the-hot-100-game-developers-2009?page=0%2C7
+
+ 
+
+Edge Online. The Top 25 Game Industry Heroes for 2008 (21).
+
+http://www.edge-online.com/features/the-top-25-game-industry-heroes-2008
+
+ 
+
+The Escapist. The Escapist Staff's Five Faves of 2008: Jordan (1).
+
+http://www.escapistmagazine.com/articles/view/editorials/reviews/favorites2008/5594-The-Escapist-Staffs-Five-Faves-of-2008-Jordan
+
+ 
+
+Eurogamer’s Top 50 Games of 2008 (10).
+
+http://www.eurogamer.net/articles/eurogamers-top-50-games-of-2008-10-1-article
+
+ 
+
+Gamasutra. Game Developer's Top Deck 2008 (7).
+
+Progressives. 7 of Diamonds.
+
+http://www.gamasutra.com/view/feature/3877/game_developers_top_deck_2008.php?page=7
+
+ 
+
+Gamasutra. Top 5 Developers 2008 (Honorable Mention).
+
+Independent Game Developers. Development Studio Honorable Mentions.
+
+http://www.gamasutra.com/php-bin/news_index.php?story=21372
+
+ 
+
+Gamasutra. Top 5 Downloadable Games 2008 (1).
+
+http://gamasutra.com/php-bin/news_index.php?story=21366
+
+ 
+
+Gamasutra. Top 5 Gameplay Mechanics 2008 (Honorable Mention).
+
+Top Gameplay Mechanic Honorable Mentions.
+
+http://www.gamasutra.com/php-bin/news_index.php?story=21380
+
+ 
+
+Gamasutra. Top 5 PC Games 2008 (Honorable Mention).
+
+http://www.gamasutra.com/php-bin/news_index.php?story=21379
+
+ 
+
+Gamasutra. Top 10 Games of the Year 2008 (2).
+
+http://gamasutra.com/php-bin/news_index.php?story=21377
+
+ 
+
+Game Developers Choice Awards. Best Debut Game (Nominee).
+
+http://www.gamechoiceawards.com/winners/index.htm#nom
+
+ 
+
+Game Developers Choice Award. Best Downloadable Game (Winner).
+
+http://www.gamechoiceawards.com/winners/index.htm#nom
+
+ 
+
+Game Developers Choice Awards. Innovation Award (Nominee).
+
+http://www.gamechoiceawards.com/winners/index.htm#nom
+
+ 
+
+GamePro. 75 Must Have Games. Nintendo Wii.
+
+http://www.gamepro.com/article/features/208383/75-must-have-games-for-the-holidays-nintendo-wii/
+
+ 
+
+GamePro. The Best Games of 2008 You've Never Played (15).
+
+http://www.gamepro.com/article/features/208376/the-best-games-of-2008-youve-never-played/
+
+ 
+
+Game Rankings. Wii Games – Most Popular 2008 (1).
+
+http://www.gamerankings.com/itemrankings/default_wii/1031
+
+ 
+
+GameSpot. Best Game No One Played 2008 (Winner).
+
+http://www.gamespot.com/best-of/dubious-honors/index.html?page=6
+
+ 
+
+GameSpot. Best Original Downloadable Console Game 2008 (Nominee).
+
+http://www.gamespot.com/best-of/special-achievement/index.html?page=9
+
+ 
+
+GameSpot. Best Puzzle Game 2008 (Nominee).
+
+http://www.gamespot.com/best-of/genre-awards/index.html?page=6
+
+ 
+
+GameSpot. Best Wii Game (Nominee).
+
+http://www.gamespot.com/best-of/platform-awards/index.html?page=5
+
+ 
+
+GameSpot. Top PC Games – Holiday Gift Guide 2008.
+
+http://www.gamespot.com/holiday-guide/pc/index.html
+
+ 
+
+GameSpot. Top Wii Games – Holiday Gift Guide 2008.
+
+http://www.gamespot.com/holiday-guide/wii/index.html
+
+ 
+
+GameSpy. 2008 WiiWare Game of the Year (Winner).
+
+http://goty.gamespy.com/2008/special/8.html
+
+ 
+
+GameSpy. 2008 Wii Top 10 (4).
+
+http://goty.gamespy.com/2008/wii/8.html
+
+ 
+
+GameSpy. 2008 PC Top 10 (6).
+
+http://goty.gamespy.com/2008/pc/6.html
+
+ 
+
+GameSpy. 2008 PC Puzzle Game of the Year (Winner).
+
+http://goty.gamespy.com/2008/pc/12.html
+
+ 
+
+GameSpy. 2008 Wii Gamers’ Choice Award (5).
+
+http://goty.gamespy.com/2008/gamerschoice/2.html
+
+ 
+
+GamesRadar. The Top 7 prettiest games of 2008 (5 -Runner-Up).
+
+http://www.gamesradar.com/f/the-top-7-prettiest-games-of-2008/a-2008120810522647050/p-3
+
+ 
+
+GameTrailers. Best Puzzle/Parlor Game 2008 (Nominee).
+
+http://www.gametrailers.com/player/43833.html
+
+ 
+
+Game Tunnel. 2008 Graphics Game of the Year (Winner).
+
+http://www.gametunnel.com/articles.php?id=733
+
+ 
+
+Game Tunnel. 2008 Puzzle Game of the Year (Winner).
+
+http://gametunnel.com/articles.php?id=725
+
+ 
+
+Game Tunnel. 2008 Top 10 Games of the Year (Winner).
+
+http://www.gametunnel.com/articles.php?id=705
+
+ 
+
+Gleemax. 2008 Gleemie Award (Finalist).
+
+http://www.wizards.com/default.asp?x=igf/article/designerfinalists
+
+ 
+
+Independent Games Festival. 2008 Design Innovation Award (Winner).
+
+http://igf.com/2008finalistswinners.html
+
+ 
+
+Independent Games Festival. 2008 Seamus McNally Grand Prize Best Game (Nominee).
+
+http://igf.com/2008finalistswinners.html
+
+ 
+
+Independent Games Festival. 2008 Technical Excellence Award (Winner).
+
+http://igf.com/2008finalistswinners.html
+
+ 
+
+IGN. Editor’s Favorites of 2008: Erik (6).
+
+http://xbox360.ign.com/articles/945/945427p2.html
+
+ 
+
+IGN. Overall: Best Artistic Design 2008 (Nominee).
+
+http://bestof.ign.com/2008/overall/12.html
+
+ 
+
+IGN. Overall: Best Downloadable Console Game of 2008 (Winner).
+
+http://bestof.ign.com/2008/overall/20.html
+
+ 
+
+IGN. Overall: Best New IP of 2008 (Nominee).
+
+http://bestof.ign.com/2008/overall/21.html
+
+ 
+
+IGN. Overall: Best Puzzle Game of 2008 (Winner).
+
+http://bestof.ign.com/2008/overall/5.html
+
+ 
+
+IGN. Overall: Most Innovative Design of 2008 (Nominee).
+
+http://bestof.ign.com/2008/overall/22.html
+
+ 
+
+IGN. PC: Best Artistic Design 2008 (Nominee).
+
+http://bestof.ign.com/2008/pc/12.html
+
+ 
+
+IGN. PC: Best Family Game 2008 (Nominee).
+
+http://bestof.ign.com/2008/pc/17.html
+
+ 
+
+IGN. PC: Best New IP 2008 (Nominee).
+
+http://bestof.ign.com/2008/pc/20.html
+
+ 
+
+IGN. PC: Best Puzzle Game 2008 (Winner).
+
+http://bestof.ign.com/2008/pc/6.html
+
+ 
+
+IGN. Wii: Best Artistic Design 2008 (Winner).
+
+http://bestof.ign.com/2008/wii/12.html
+
+ 
+
+IGN. Wii: Best New IP 2008 (Winner).
+
+http://bestof.ign.com/2008/wii/21.html
+
+ 
+
+IGN. Wii: Best Original Score 2008 (Nominee).
+
+http://bestof.ign.com/2008/wii/13.html
+
+ 
+
+IGN. Wii: Best Puzzle Game 2008 (Winner).
+
+http://bestof.ign.com/2008/wii/5.html
+
+ 
+
+IGN. Wii: Best WiiWare Game 2008 (Winner).
+
+http://bestof.ign.com/2008/wii/20.html
+
+ 
+
+IGN. Wii: Most Innovative Design 2008 (Winner).
+
+http://bestof.ign.com/2008/wii/24.html
+
+ 
+
+IGN. Wii: Wii Game of the Year 2008 (Winner).
+
+http://bestof.ign.com/2008/wii/25.html
+
+ 
+
+Jay is Games. All-time Best Games (9).
+
+http://jayisgames.com/best-games/
+
+ 
+
+Jay is Games. Best of Casual Gameplay - Puzzle (downloadable game) (Winner).
+
+http://jayisgames.com/best-of/2008/download/puzzle-results/
+
+ 
+
+Joystiq. Best of the Rest: Alexander’s Picks of 2008.
+
+http://www.joystiq.com/2009/01/01/best-of-the-rest-alexanders-picks-of-2008/
+
+ 
+
+Joystiq. Best of the Rest: Randy’s Picks of 2008.
+
+http://www.joystiq.com/2009/01/01/best-of-the-rest-randys-picks-of-2008/
+
+ 
+
+Kombo. Industry Roundtable: Game of the Year 2008 (Winner for 3 out of 10 panelists).
+
+http://www.kombo.com/article.php?artid=12173
+
+ 
+
+Kotaku. Indie Game of the Year (Not Quite Best).
+
+http://kotaku.com/5122222/kotakus-2008-games-of-the-year-awards
+
+ 
+
+Metacritic. The Best Videogames of 2008.
+
+Best Wii Games (2).
+
+Best PC Games (5).
+
+http://www.metacritic.com/games/bests/2008.shtml
+
+ 
+
+Moby Games. Best by Year: 2008 (3).
+
+http://www.mobygames.com/stats/top_games/k,by_year/listType,1/p,-1/ssid,2008/
+
+ 
+
+Moby Games. Best by Platform: Wii (2).
+
+http://www.mobygames.com/stats/top_games/k,by_platform/listType,1/p,-1/ssid,82/
+
+ 
+
+msnbc. Top 5 best sleeper games of 2008 (1).
+
+http://www.msnbc.msn.com/id/27669423/?pg=1#games_top5_081017_2008SleeperGames
+
+ 
+
+MTV Multiplayer. The Top 10 Best Games of 2008, According to Metacritic (7).
+
+http://multiplayerblog.mtv.com/2008/12/24/10-best-games-metacritic/
+
+ 
+
+Offworld. 2008 and the Indie Renaissance.
+
+http://www.offworld.com/2008/12/ragdoll-metaphysics-2008-and-t.html/
+
+ 
+
+Offworld. Ten Things That Made Me Glad To Be A Gamer In 2008.
+
+The music in World of Goo (6)
+
+http://www.offworld.com/2008/12/ragdoll-metaphysics-ten-things.html
+
+ 
+
+Offworld. The Offworld 20: 2008’s Best Indie & Overlooked.
+
+http://www.offworld.com/2008-offworld-20-04.html
+
+ 
+
+PC World. The 12 Best Holiday Bets 2008.
+
+http://www.pcworld.com/article/154297-9/video_games_the_12_best_holiday_bets.html
+
+ 
+
+PopMatters. Consuming Consumables 2008.
+
+http://www.popmatters.com/pm/post/66726-world-of-goo/
+
+ 
+
+Port City Gamers. 2008 Game Awards: Best game for under $20 (Winner).
+
+http://gamers.starnewsonline.com/default.asp?item=2306480&mode=
+
+ 
+
+Pushing Play. Best downloadable game (Nominee).
+
+http://www.pushingplay.com/2008/12/27/pushingplays-not-really-game-of-the-year-awards/
+
+ 
+
+Pushing Play. Best independent game (Winner).
+
+http://www.pushingplay.com/2009/01/06/pushingplays-not-really-game-of-the-year-award-winners/
+
+ 
+
+Rock, Paper, Shotgun. Notable Releases of 2008 (Notable Release).
+
+http://www.rockpapershotgun.com/2008/12/19/now-that’s-why-i-love-a-best-2008-ever-september/
+
+ 
+
+Rock, Paper, Shotgun. Twelve Games of Christmas (Winner).
+
+http://www.rockpapershotgun.com/2008/12/25/the-12-games-of-christmas-game-12/
+
+ 
+
+Spike. The Next Great Game Gods.
+
+http://www.spike.com/video/next-great-game-gods/3079047
+
+ 
+
+Spike. Video Game Awards: Best Independent Game 2008 (Winner).
+
+http://www.spike.com/event/vga/page/vote/category/29643
+
+ 
+
+Stuff. Best indie game 2008 (Winner – tied with Braid).
+
+http://www.stuff.co.nz/4791075a29275.html
+
+ 
+
+The Game Reviews. A-Z of of Gaming in 2008.
+
+http://www.thegamereviews.com/articlenav-1006-page-3.html
+
+ 
+
+X-Play. Best New Downloadable Game 2008 (Nominee).
+
+http://www.g4tv.com/xplay/articles/65785/XPlay_Best_of_2008_Best_New_Downloadable_Game.html#bestof2008
+
+ 
+
+VG Chartz. Best Game No One Played (Winner).
+
+http://news.vgchartz.com/news.php?id=2713
+
+ 
+
+VG Chartz. Best Musical Score (Winner).
+
+http://news.vgchartz.com/news.php?id=2713
+
+ 
+
+VG Chartz. Best Puzzle/Misc Game (Winner and Reader’s Choice).
+
+http://news.vgchartz.com/news.php?id=2713
+
+ 
+
+VG Chartz. Game of the Year (Runner-Up).
+
+http://news.vgchartz.com/news.php?id=2713
+
+ 
+
+VG Chartz. Most Innovative (Winner and Reader’s Choice).
+
+http://news.vgchartz.com/news.php?id=2713
+
+ 
+
+Wii fanboy. 2008’s Top Games.
+
+http://www.nintendowiifanboy.com/photos/2008s-top-games/1240629/
+
+ 
+
+Wii Wii. Top WiiWare Game of 2008 (Winner).
+
+http://www.wiiwii.tv/2008/12/08/top-five-wiiware-games-of-2008/
+
+ 
+
+WildTanget ORB. Most Popular Games (1).
+
+http://www.wildgames.com/find/popular
+
+ 
+
+Wired. Best of 2008: Top 5 Multiplatform Games (5).
+
+http://blog.wired.com/games/2008/11/best-of-2008-to.html
+
+ 
+
+Wolfire Blog. 2008 Top 10 Indie Video Games for the Holidays (1).
+
+http://blog.wolfire.com/2008/12/top-10-indie-video-games-for-the-holidays/ 
